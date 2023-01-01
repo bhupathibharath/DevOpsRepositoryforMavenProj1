@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class SampleTestNGTest1 {
  public String baseurl = "http://newtours.demoaut.com/" ;
-
+ //public RemoteWebDriver driver;
  WebDriver driver = new ChromeDriver();
  
  @BeforeTest
