@@ -1,0 +1,7 @@
+package MavenProjPackage1;
+
+public class SampleTestNGTest1 {
+ public String baseurl = "http://newtours.demoaut.com/" ;
+ public Webdriver driver;
+ 
+}

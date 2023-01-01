@@ -1,0 +1,15 @@
+package MavenProjPackage1;
+
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeTest;
+
+public class SampleTestNGTest1 {
+ public String baseurl = "http://newtours.demoaut.com/" ;
+ public RemoteWebDriver driver;
+ 
+ @BeforeTest
+ public void setBaseURL() {
+	 driver = new RemoteWebDriver();
+	 driver.get(baseurl);
+ }
+}
